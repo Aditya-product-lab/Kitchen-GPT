@@ -5,11 +5,11 @@ from torch.nn import functional as F # Functional interface for operations like 
 # -------------------------------------------------------------------
 # SECTION 1: HYPERPARAMETERS (The Knobs YOU Turn)
 # -------------------------------------------------------------------
-batch_size = 16       # How many small chunks of text we process at once (Lowered to 16 for stability)
-block_size = 32       # THE CONTEXT WINDOW: How many characters back the model can "see" (Lowered so it doesn't get confused)
-max_iters = 5000      # How many times the model "studies" the data
+batch_size = 16       # How many small chunks of text we process at once. 
+block_size = 32       # THE CONTEXT WINDOW: How many characters back the model can "see" 
+max_iters = 5000      # How many times the model "studies" the data.
 learning_rate = 1e-3  # How fast the model adjusts its internal knobs. 
-n_embd = 64           # The size of the "idea space" for each character. (Reduced from 256 to prevent "over-engineering")
+n_embd = 64           # The size of the "idea space" for each character. 
 # -------------------------------------------------------------------
 
 # -------------------------------------------------------------------
