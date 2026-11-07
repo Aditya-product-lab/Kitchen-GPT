@@ -1,4 +1,4 @@
-Welcome, this file will help you with all the steps needed to get your own toy model (Kitchen-GPT) up and running via the terminal interface on Microsoft Visual Studio Code (VS Code). 
+Welcome, this file will help you with all the steps needed to get your own toy model (Kitchen-GPT) up and running via the terminal interface on Microsoft Visual Studio Code (VS Code) or any other IDE. 
 Here are the steps to follow: 
 
 1. Make sure you have Python and Microsoft VS Code installed in your PC.
